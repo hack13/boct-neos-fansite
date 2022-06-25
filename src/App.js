@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import About from './components/About'
+import Credits from './components/Credits'
+import Archive from './components/Archive'
+import GameSession from './components/GameSession'
+import { Route, Routes } from 'react-router-dom'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div>
+        <Header />
+        <div class="p-10 align-center bg-stone-400">
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/credits" element={<Credits />} />
+            <Route path="/archive" element={<Archive />} />
+            <Route path="/22-06-21" element={<GameSession />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+  )
 }
-
-export default App;
