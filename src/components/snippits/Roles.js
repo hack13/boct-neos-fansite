@@ -1,4 +1,5 @@
-const Roles = ({ role, team, description, fulllink }) => {
+const Roles = ({ role, team, description }) => {
+    let fulllink = "https://wiki.bloodontheclocktower.com/" + role
     let image = '/roles/' + team + '/' + role.split(' ').join('_') + '.png'
     return (
         <div class="flex flex-row border-2 rounded-md p-2">
