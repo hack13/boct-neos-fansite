@@ -1,0 +1,854 @@
+{
+    "imp": {
+        "script_offset": 1120,
+        "name": "Imp",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
+    },
+    "baron": {
+        "script_offset": 1000,
+        "name": "Baron",
+        "type": "minion",
+        "ability": "There are two extra Outsiders in play. [+2 Outsiders]"
+    },
+    "poisoner": {
+        "script_offset": 910,
+        "name": "Poisoner",
+        "type": "minion",
+        "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
+    },
+    "scarlet_woman": {
+        "script_offset": 1030,
+        "name": "Scarlet Woman",
+        "type": "minion",
+        "ability": "If there are 5 or more players alive and the Demon dies, you become the Demon. (Travellers don't count.)"
+    },
+    "spy": {
+        "script_offset": 940,
+        "name": "Spy",
+        "type": "minion",
+        "ability": "Each night, you see the Grimoire. You might register as good and as a Townsfolk or Outsider, even if dead."
+    },
+    "butler": {
+        "script_offset": 710,
+        "name": "Butler",
+        "type": "outsider",
+        "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
+    },
+    "drunk": {
+        "script_offset": 830,
+        "name": "Drunk",
+        "type": "outsider",
+        "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
+    },
+    "recluse": {
+        "script_offset": 780,
+        "name": "Recluse",
+        "type": "outsider",
+        "ability": "You might register as evil and as a Minion or Demon, even if dead."
+    },
+    "saint": {
+        "script_offset": 760,
+        "name": "Saint",
+        "type": "outsider",
+        "ability": "If you die by execution, your team loses."
+    },
+    "chef": {
+        "script_offset": 120,
+        "name": "Chef",
+        "type": "townsfolk",
+        "ability": "You start knowing how many pairs of evil players there are."
+    },
+    "empath": {
+        "script_offset": 190,
+        "name": "Empath",
+        "type": "townsfolk",
+        "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
+    },
+    "fortune_teller": {
+        "script_offset": 270,
+        "name": "Fortune Teller",
+        "type": "townsfolk",
+        "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    },
+    "investigator": {
+        "script_offset": 110,
+        "name": "Investigator",
+        "type": "townsfolk",
+        "ability": "You start knowing that 1 of 2 players is a particular Minion."
+    },
+    "librarian": {
+        "script_offset": 150,
+        "name": "Librarian",
+        "type": "townsfolk",
+        "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
+    },
+    "mayor": {
+        "script_offset": 670,
+        "name": "Mayor",
+        "type": "townsfolk",
+        "ability": "If only 3 players live and no execution occurs, your team wins. If you die at night, another player might die instead."
+    },
+    "monk": {
+        "script_offset": 370,
+        "name": "Monk",
+        "type": "townsfolk",
+        "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+    },
+    "ravenkeeper": {
+        "script_offset": 620,
+        "name": "Ravenkeeper",
+        "type": "townsfolk",
+        "ability": "If you die at night, you are woken to choose a player: you learn their character."
+    },
+    "slayer": {
+        "script_offset": 490,
+        "name": "Slayer",
+        "type": "townsfolk",
+        "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+    },
+    "soldier": {
+        "script_offset": 540,
+        "name": "Soldier",
+        "type": "townsfolk",
+        "ability": "You are safe from the Demon."
+    },
+    "undertaker": {
+        "script_offset": 340,
+        "name": "Undertaker",
+        "type": "townsfolk",
+        "ability": "Each night*, you learn which character died by execution today."
+    },
+    "virgin": {
+        "script_offset": 640,
+        "name": "Virgin",
+        "type": "townsfolk",
+        "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
+    },
+    "washerwoman": {
+        "script_offset": 130,
+        "name": "Washerwoman",
+        "type": "townsfolk",
+        "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
+    },
+    "po": {
+        "script_offset": 1140,
+        "name": "Po",
+        "type": "demon",
+        "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight."
+    },
+    "pukka": {
+        "script_offset": 1080,
+        "name": "Pukka",
+        "type": "demon",
+        "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy."
+    },
+    "shabaloth": {
+        "script_offset": 1130,
+        "name": "Shabaloth",
+        "type": "demon",
+        "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated."
+    },
+    "zombuul": {
+        "script_offset": 1150,
+        "name": "Zombuul",
+        "type": "demon",
+        "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
+    },
+    "assassin": {
+        "script_offset": 990,
+        "name": "Assassin",
+        "type": "minion",
+        "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not."
+    },
+    "devils_advocate": {
+        "script_offset": 920,
+        "name": "Devil's Advocate",
+        "type": "minion",
+        "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die."
+    },
+    "godfather": {
+        "script_offset": 890,
+        "name": "Godfather",
+        "type": "minion",
+        "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. (+1 or -1 Outsider)"
+    },
+    "mastermind": {
+        "script_offset": 1040,
+        "name": "Mastermind",
+        "type": "minion",
+        "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses."
+    },
+    "goon": {
+        "script_offset": 720,
+        "name": "Goon",
+        "type": "outsider",
+        "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment."
+    },
+    "lunatic": {
+        "script_offset": 880,
+        "name": "Lunatic",
+        "type": "outsider",
+        "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night."
+    },
+    "moonchild": {
+        "script_offset": 850,
+        "name": "Moonchild",
+        "type": "outsider",
+        "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die."
+    },
+    "tinker": {
+        "script_offset": 750,
+        "name": "Tinker",
+        "type": "outsider",
+        "ability": "You might die at any time."
+    },
+    "chambermaid": {
+        "script_offset": 230,
+        "name": "Chambermaid",
+        "type": "townsfolk",
+        "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability."
+    },
+    "courtier": {
+        "script_offset": 470,
+        "name": "Courtier",
+        "type": "townsfolk",
+        "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days."
+    },
+    "exorcist": {
+        "script_offset": 390,
+        "name": "Exorcist",
+        "type": "townsfolk",
+        "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight."
+    },
+    "fool": {
+        "script_offset": 550,
+        "name": "Fool",
+        "type": "townsfolk",
+        "ability": "The first time you die, you don't."
+    },
+    "gambler": {
+        "script_offset": 360,
+        "name": "Gambler",
+        "type": "townsfolk",
+        "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die."
+    },
+    "gossip": {
+        "script_offset": 400,
+        "name": "Gossip",
+        "type": "townsfolk",
+        "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies."
+    },
+    "grandmother": {
+        "script_offset": 160,
+        "name": "Grandmother",
+        "type": "townsfolk",
+        "ability": "You start knowing a good player & their character. If the Demon kills them, you die too."
+    },
+    "innkeeper": {
+        "script_offset": 350,
+        "name": "Innkeeper",
+        "type": "townsfolk",
+        "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk."
+    },
+    "minstrel": {
+        "script_offset": 660,
+        "name": "Minstrel",
+        "type": "townsfolk",
+        "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
+    },
+    "pacifist": {
+        "script_offset": 560,
+        "name": "Pacifist",
+        "type": "townsfolk",
+        "ability": "Executed good players might not die."
+    },
+    "professor": {
+        "script_offset": 500,
+        "name": "Professor",
+        "type": "townsfolk",
+        "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected."
+    },
+    "sailor": {
+        "script_offset": 200,
+        "name": "Sailor",
+        "type": "townsfolk",
+        "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die."
+    },
+    "tea_lady": {
+        "script_offset": 580,
+        "name": "Tea Lady",
+        "type": "townsfolk",
+        "ability": "If both your alive neighbours are good, they can't die."
+    },
+    "fang_gu": {
+        "script_offset": 1180,
+        "name": "Fang Gu",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. The first Outsider this kills becomes an evil Fang Gu & you die instead. (+1 Outsider)"
+    },
+    "no_dashii": {
+        "script_offset": 1110,
+        "name": "No Dashii",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbours are poisoned."
+    },
+    "vigormortis": {
+        "script_offset": 1170,
+        "name": "Vigormortis",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. (-1 Outsider)"
+    },
+    "vortox": {
+        "script_offset": 1190,
+        "name": "Vortox",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins."
+    },
+    "cerenovus": {
+        "script_offset": 950,
+        "name": "Cerenovus",
+        "type": "minion",
+        "ability": "Each night, choose a player & a good character: they are \"mad\" about being this character tomorrow, or might be executed."
+    },
+    "evil_twin": {
+        "script_offset": 1050,
+        "name": "Evil Twin",
+        "type": "minion",
+        "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
+    },
+    "pit": {
+        "script_offset": 970,
+        "name": "Pit-Hag",
+        "type": "minion",
+        "ability": "Each night*, choose a player & a character they become (if not-in-play). Alignment doesn't change. If a Demon is made, deaths tonight are arbitrary."
+    },
+    "witch": {
+        "script_offset": 930,
+        "name": "Witch",
+        "type": "minion",
+        "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
+    },
+    "barber": {
+        "script_offset": 860,
+        "name": "Barber",
+        "type": "outsider",
+        "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+    },
+    "klutz": {
+        "script_offset": 820,
+        "name": "Klutz",
+        "type": "outsider",
+        "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses."
+    },
+    "mutant": {
+        "script_offset": 790,
+        "name": "Mutant",
+        "type": "outsider",
+        "ability": "If you are \"mad\" about being an Outsider, you might be executed."
+    },
+    "sweetheart": {
+        "script_offset": 770,
+        "name": "Sweetheart",
+        "type": "outsider",
+        "ability": "When you die, 1 player is drunk from now on."
+    },
+    "artist": {
+        "script_offset": 460,
+        "name": "Artist",
+        "type": "townsfolk",
+        "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question."
+    },
+    "clockmaker": {
+        "script_offset": 140,
+        "name": "Clockmaker",
+        "type": "townsfolk",
+        "ability": "You start knowing how many steps from the Demon to its nearest Minion."
+    },
+    "dreamer": {
+        "script_offset": 260,
+        "name": "Dreamer",
+        "type": "townsfolk",
+        "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct."
+    },
+    "flowergirl": {
+        "script_offset": 310,
+        "name": "Flowergirl",
+        "type": "townsfolk",
+        "ability": "Each night*, you learn if a Demon voted today."
+    },
+    "juggler": {
+        "script_offset": 430,
+        "name": "Juggler",
+        "type": "townsfolk",
+        "ability": "On your first day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+    },
+    "mathematician": {
+        "script_offset": 280,
+        "name": "Mathematician",
+        "type": "townsfolk",
+        "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability."
+    },
+    "oracle": {
+        "script_offset": 330,
+        "name": "Oracle",
+        "type": "townsfolk",
+        "ability": "Each night*, you learn how many dead players are evil."
+    },
+    "philosopher": {
+        "script_offset": 520,
+        "name": "Philosopher",
+        "type": "townsfolk",
+        "ability": "Once per game, at night, choose a good character from this edition: gain that ability. If this character is in play, they are drunk."
+    },
+    "sage": {
+        "script_offset": 590,
+        "name": "Sage",
+        "type": "townsfolk",
+        "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+    },
+    "savant": {
+        "script_offset": 410,
+        "name": "Savant",
+        "type": "townsfolk",
+        "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false."
+    },
+    "seamstress": {
+        "script_offset": 510,
+        "name": "Seamstress",
+        "type": "townsfolk",
+        "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment."
+    },
+    "snake_charmer": {
+        "script_offset": 290,
+        "name": "Snake Charmer",
+        "type": "townsfolk",
+        "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
+    },
+    "town_crier": {
+        "script_offset": 320,
+        "name": "Town Crier",
+        "type": "townsfolk",
+        "ability": "Each night*, you learn if a Minion nominated today."
+    },
+    "riot": {
+        "script_offset": 1220,
+        "name": "Riot",
+        "type": "demon",
+        "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]"
+    },
+    "al": {
+        "script_offset": 1160,
+        "name": "Al-Hadikhia",
+        "type": "demon",
+        "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
+    },
+    "legion": {
+        "script_offset": 1200,
+        "name": "Legion",
+        "type": "demon",
+        "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion.]"
+    },
+    "leviathan": {
+        "script_offset": 1210,
+        "name": "Leviathan",
+        "type": "demon",
+        "ability": "If more than 1 good player is executed, you win. All players know you are in play. After day 5, evil wins."
+    },
+    "lleech": {
+        "script_offset": 1100,
+        "name": "Lleech",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if (& only if) they die."
+    },
+    "lil_monsta": {
+        "script_offset": 1090,
+        "name": "Lil' Monsta",
+        "type": "demon",
+        "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". A player dies each night except the first. [+1 Minion]"
+    },
+    "boomdandy": {
+        "script_offset": 1060,
+        "name": "Boomdandy",
+        "type": "minion",
+        "ability": "If you are executed, all but 3 players die. 1 minute later, the player with the most players pointing at them, dies."
+    },
+    "goblin": {
+        "script_offset": 1020,
+        "name": "Goblin",
+        "type": "minion",
+        "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
+    },
+    "fearmonger": {
+        "script_offset": 960,
+        "name": "Fearmonger",
+        "type": "minion",
+        "ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player."
+    },
+    "widow": {
+        "script_offset": 900,
+        "name": "Widow",
+        "type": "minion",
+        "ability": "On your first night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play."
+    },
+    "marionette": {
+        "script_offset": 1070,
+        "name": "Marionette",
+        "type": "minion",
+        "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]"
+    },
+    "mezepheles": {
+        "script_offset": 1010,
+        "name": "Mezepheles",
+        "type": "minion",
+        "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
+    },
+    "psychopath": {
+        "script_offset": 980,
+        "name": "Psychopath",
+        "type": "minion",
+        "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo."
+    },
+    "acrobat": {
+        "script_offset": 730,
+        "name": "Acrobat",
+        "type": "outsider",
+        "ability": "Each night*, if either good living neighbour is drunk or poisoned, you die."
+    },
+    "damsel": {
+        "script_offset": 810,
+        "name": "Damsel",
+        "type": "outsider",
+        "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses."
+    },
+    "golem": {
+        "script_offset": 840,
+        "name": "Golem",
+        "type": "outsider",
+        "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die."
+    },
+    "heretic": {
+        "script_offset": 800,
+        "name": "Heretic",
+        "type": "outsider",
+        "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead."
+    },
+    "politician": {
+        "script_offset": 870,
+        "name": "Politician",
+        "type": "outsider",
+        "ability": "If you were the player most responsible for your team losing, you change alignment and win, even if dead."
+    },
+    "puzzlemaster": {
+        "script_offset": 740,
+        "name": "Puzzlemaster",
+        "type": "outsider",
+        "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
+    },
+    "snitch": {
+        "script_offset": 700,
+        "name": "Snitch",
+        "type": "outsider",
+        "ability": "Minions start knowing 3 not-in-play characters."
+    },
+    "amnesiac": {
+        "script_offset": 420,
+        "name": "Amnesiac",
+        "type": "townsfolk",
+        "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
+    },
+    "atheist": {
+        "script_offset": 680,
+        "name": "Atheist",
+        "type": "townsfolk",
+        "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]"
+    },
+    "balloonist": {
+        "script_offset": 240,
+        "name": "Balloonist",
+        "type": "townsfolk",
+        "ability": "Each night, you learn 1 player of each character type, until there are no more types to learn. [+1 Outsider]"
+    },
+    "bounty_hunter": {
+        "script_offset": 170,
+        "name": "Bounty Hunter",
+        "type": "townsfolk",
+        "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]"
+    },
+    "cannibal": {
+        "script_offset": 690,
+        "name": "Cannibal",
+        "type": "townsfolk",
+        "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution."
+    },
+    "cult_leader": {
+        "script_offset": 300,
+        "name": "Cult Leader",
+        "type": "townsfolk",
+        "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins."
+    },
+    "farmer": {
+        "script_offset": 600,
+        "name": "Farmer",
+        "type": "townsfolk",
+        "ability": "If you die at night, an alive good player becomes a Farmer."
+    },
+    "fisherman": {
+        "script_offset": 480,
+        "name": "Fisherman",
+        "type": "townsfolk",
+        "ability": "Once per game, during the day, visit the storyteller for some advice to help you win."
+    },
+    "general": {
+        "script_offset": 210,
+        "name": "General",
+        "type": "townsfolk",
+        "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither."
+    },
+    "lycanthrope": {
+        "script_offset": 380,
+        "name": "Lycanthrope",
+        "type": "townsfolk",
+        "ability": "Each night*, choose an alive player: if good, they die, but they are the only player that can die tonight."
+    },
+    "huntsman": {
+        "script_offset": 530,
+        "name": "Huntsman",
+        "type": "townsfolk",
+        "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+The Damsel]"
+    },
+    "magician": {
+        "script_offset": 610,
+        "name": "Magician",
+        "type": "townsfolk",
+        "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
+    },
+    "noble": {
+        "script_offset": 100,
+        "name": "Noble",
+        "type": "townsfolk",
+        "ability": "You start knowing 3 players, 1 and only 1 of which is evil."
+    },
+    "pixie": {
+        "script_offset": 180,
+        "name": "Pixie",
+        "type": "townsfolk",
+        "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die."
+    },
+    "preacher": {
+        "script_offset": 220,
+        "name": "Preacher",
+        "type": "townsfolk",
+        "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability."
+    },
+    "poppy_grower": {
+        "script_offset": 650,
+        "name": "Poppy Grower",
+        "type": "townsfolk",
+        "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
+    },
+    "king": {
+        "script_offset": 250,
+        "name": "King",
+        "type": "townsfolk",
+        "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
+    },
+    "choirboy": {
+        "script_offset": 630,
+        "name": "Choirboy",
+        "type": "townsfolk",
+        "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]"
+    },
+    "engineer": {
+        "script_offset": 450,
+        "name": "Engineer",
+        "type": "townsfolk",
+        "ability": "Once per game, at night, choose which Minions or which Demon is in play."
+    },
+    "alchemist": {
+        "script_offset": 570,
+        "name": "Alchemist",
+        "type": "townsfolk",
+        "ability": "You have a not-in-play Minion ability."
+    },
+    "nightwatchman": {
+        "script_offset": 440,
+        "name": "Nightwatchman",
+        "type": "townsfolk",
+        "ability": "Once per game, at night, choose a player: they learn who you are."
+    },
+    "angel": {
+        "script_offset": 9001,
+        "name": "Angel",
+        "type": "fabled",
+        "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
+    },
+    "buddhist": {
+        "script_offset": 9002,
+        "name": "Buddhist",
+        "type": "fabled",
+        "ability": "For the first 2 minutes of each day, veteran players may not talk."
+    },
+    "djinn": {
+        "script_offset": 9011,
+    "name": "Djinn",
+        "type": "fabled",
+        "ability": "Use the Djinn's special rule. All players know what it is."
+    },
+    "doomsayer": {
+        "script_offset": 9000,
+        "name": "Doomsayer",
+        "type": "fabled",
+        "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
+    },
+    "duchess": {
+        "script_offset": 9008,
+        "name": "Duchess",
+        "type": "fabled",
+        "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
+    },
+    "fibbin": {
+        "script_offset": 9007,
+        "name": "Fibbin",
+        "type": "fabled",
+        "ability": "Once per game, 1 good player might get incorrect information."
+    },
+    "fiddler": {
+        "script_offset": 9005,
+        "name": "Fiddler",
+        "type": "fabled",
+        "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
+    },
+    "hells_librarian": {
+        "script_offset": 9003,
+        "name": "Hell's Librarian",
+        "type": "fabled",
+        "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
+    },
+    "revolutionary": {
+        "script_offset": 9004,
+        "name": "Revolutionary",
+        "type": "fabled",
+        "ability": "2 neighboring players are known to be the same alignment. Once per game, 1 of them registers falsely."
+    },
+    "sentinel": {
+        "script_offset": 9009,
+        "name": "Sentinel",
+        "type": "fabled",
+        "ability": "There might be 1 extra or 1 fewer Outsider in play."
+    },
+    "spirit_of_ivory": {
+        "script_offset": 9010,
+        "name": "Spirit Of Ivory",
+        "type": "fabled",
+        "ability": "There can't be more than 1 extra evil player."
+    },
+    "storm_catcher": {
+        "script_offset": 9999,
+        "name": "Storm Catcher",
+        "type": "fabled",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "toymaker": {
+        "script_offset": 9006,
+        "name": "Toymaker",
+        "type": "fabled",
+        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    },
+    "apprentice": {
+        "script_offset": 8005,
+        "name": "Apprentice",
+        "type": "traveller",
+        "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil)."
+    },
+    "barista": {
+        "script_offset": 8013,
+        "name": "Barista",
+        "type": "traveller",
+        "ability": "Each night, until dusk, 1) a player becomes sober, healthy & gets true info, or 2) their ability works twice. They learn which."
+    },
+    "beggar": {
+        "script_offset": 8002,
+        "name": "Beggar",
+        "type": "traveller",
+        "ability": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy."
+    },
+    "bishop": {
+        "script_offset": 8009,
+        "name": "Bishop",
+        "type": "traveller",
+        "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day"
+    },
+    "bone_collector": {
+        "script_offset": 8011,
+        "name": "Bone Collector",
+        "type": "traveller",
+        "ability": "Once per game, at night, choose a dead player; they regain their ability until dusk."
+    },
+    "bureaucrat": {
+        "script_offset": 8003,
+        "name": "Bureaucrat",
+        "type": "traveller",
+        "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow."
+    },
+    "butcher": {
+        "script_offset": 8010,
+        "name": "Butcher",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "deviant": {
+        "script_offset": 8014,
+        "name": "Deviant",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "gangster": {
+        "script_offset": 9999,
+        "name": "Gangster",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "gunslinger": {
+        "script_offset": 8001,
+        "name": "Gunslinger",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "harlot": {
+        "script_offset": 8012,
+        "name": "Harlot",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "judge": {
+        "script_offset": 8008,
+        "name": "Judge",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "matron": {
+        "script_offset": 8006,
+        "name": "Matron",
+        "type": "traveller",
+        "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private."
+    },
+    "scapegoat": {
+        "script_offset": 8000,
+        "name": "Scapegoat",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "thief": {
+        "script_offset": 8004,
+        "name": "Thief",
+        "type": "traveller",
+        "ability": "This is a temporary template role, it should not show up in game. This character is not complete."
+    },
+    "voudon": {
+        "script_offset": 8007,
+        "name": "Voudon",
+        "type": "traveller",
+        "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required."
+    }
+}

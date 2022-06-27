@@ -9,7 +9,7 @@ const Credits = () => {
                 <br />
                 <p class="text-lg font-bold">Blood on the Clocktower</p>
                 <p class="text-base">The base game we are all playing, which all the assets for roles and characters on this site are from the official website's wiki. We highly encourage you to go and purchase a copy of
-                the official game.  You can find out more about this game from the official website here: 
+                the official game.  You can find out more about this game from the official website here:&nbsp;
                 <a href="https://bloodontheclocktower.com/" rel="noreferrer" target="_blank" class="underline">https://bloodontheclocktower.com/</a></p>
                 <br />
                 <p class="text-lg font-bold">NeosVR</p>

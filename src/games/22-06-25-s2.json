@@ -1,0 +1,75 @@
+{
+	"game name" : "Seventh Son of a Seventh Son v2.1 - June 21, 2022",
+	"video sources" : [
+		{ 
+			"id" : "0",
+			"perspective" : "Empath",
+			"platform" : "BunnyPlayer",
+			"source" : "iframe.mediadelivery.net/embed/46527/8f08142f-3c3e-4edf-87ff-0ed9469fb66c?autoplay=false",
+			"credit" : "Hack13"
+		},
+		{
+			"id" : "1",
+			"perspective" : "Empath",
+			"platform" : "YouTube",
+			"source" : "www.youtube.com/embed/q-3OpUAaq30",
+			"credit" : "Hack13"
+		}
+	],
+	"script": {
+		"name": "Seventh Son of a Seventh Son v2.1",
+		"author": "Abnormally Rendered",
+		"roles": [
+			{ "id": "noble" },
+			{ "id": "grandmother" },
+			{ "id": "bounty_hunter" },
+			{ "id": "empath" },
+			{ "id": "chambermaid" },
+			{ "id": "fortune_teller" },
+			{ "id": "gambler" },
+			{ "id": "oracle" },
+			{ "id": "gossip" },
+			{ "id": "nightwatchman" },
+			{ "id": "pacifist" },
+			{ "id": "soldier" },
+			{ "id": "mutant" },
+			{ "id": "barber" },
+			{ "id": "moonchild" },
+			{ "id": "drunk" },
+			{ "id": "tinker" },
+			{ "id": "cerenovus" },
+			{ "id": "devils_advocate" },
+			{ "id": "baron" },
+			{ "id": "pit" },
+			{ "id": "pukka" },
+			{ "id": "vigormortis" },
+			{ "id": "po" },
+			{ "id": "lleech" }
+		]
+	},
+	"roster" : {
+		"storytellers": [
+			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.png" },
+			{ "name": "Todd", "pfp": "https://via.placeholder.com/150" }
+		],
+		"residents": [
+            { "name": "Todd", "role": "evil_twin" },
+            { "name": "Shigure Fox", "role": "poisoner" },
+            { "name": "Hack13", "role": "empath" },
+            { "name": "ATC_Man", "role": "undertaker" },
+            { "name": "Juanvi", "role": "chambermaid" },
+            { "name": "Gabriel Serealia", "role": "spy" },
+            { "name": "Blueterra", "role": "fortune_teller" },
+            { "name": "retrospectiv", "role": "recluse" },
+            { "name": "Nate Saruli", "role": "soldier" },
+            { "name": "Kal", "role": "ravenkeeper" },
+            { "name": "Frooxius", "role": "slayer" }
+		],
+		"travellers": [ 
+
+		],
+		"fabled": [ 
+			
+		]
+	}
+}

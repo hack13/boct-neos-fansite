@@ -1,24 +1,42 @@
-import AndMakeItDouble from "./scripts/AndMakeItDouble"
+import ScriptRenderer from "./scripts/ScriptRenderer"
 import StoryTeller from "./snippits/StoryTeller"
+import VideoPlayer from "./snippits/VideoPlayer"
+import { useState } from "react"
+import { useParams } from "react-router-dom"
 
-const GameSession = () => {
+
+export default function GameSession() {
+    let game = useParams()
+    const gameData = require('../games/'+game.id+'.json')
+    
+    const [player, setPlayer] = useState(gameData["video sources"][0].platform)
+    const [vidsrc, setVidsrc] = useState(gameData["video sources"][0].source)
+
+    function changePlayer(type, source) {
+        setPlayer(type)
+        setVidsrc(source)
+    }
+    
     return (
         <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-4">
-            <div class="font-serif text-2xl text-stone-600">And Make It Double - June 21, 2022</div>
-            <div class="aspect-w-9 aspect-h-5">
-                <iframe src="https://iframe.mediadelivery.net/embed/46527/2ae2b03d-09de-42c0-9861-060dcf3f9814?autoplay=false" loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true" title="videoplayer"></iframe>
-            </div>
+            <div class="font-serif text-2xl text-stone-600">{gameData["game name"]}</div>
+                <VideoPlayer type={player} source={vidsrc} />
             <div class="space-y-2 text-stone-600 text-serif">
+                <p class="text-xl font-bold">Video Sources</p>
+                <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
+                    {gameData["video sources"].map(video =>
+                        <button onClick={() => changePlayer(video.platform, video.source)} class="bg-slate-700 text-stone-200 rounded-md p-3"><strong>{video.platform}</strong> <br/> <strong>Perspective:</strong> {video.perspective} <br/> <strong>Credit:</strong> {video.credit}</button>
+                    )}
+                </div> 
                 <p class="text-xl font-bold">Story Tellers</p>
                 <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
-                    <StoryTeller name="Delta" pfp="https://placeholder.pics/svg/150x150" />
-                    <StoryTeller name="1amNick" pfp="https://placeholder.pics/svg/150x150" />
+                    {gameData.roster.storytellers.map(storyteller =>
+                        <StoryTeller name={storyteller.name} pfp={storyteller.pfp} />
+                    )}
                 </div>
                 <p class="text-xl font-bold">Script</p>
-                <AndMakeItDouble />
+                <ScriptRenderer script={gameData.script} />
             </div>
         </div>
     )
 }
-
-export default GameSession

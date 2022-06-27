@@ -5,9 +5,9 @@ const Footer = () => {
                 <div class="text-slate-300 text-xl">Disclaimers</div>
                 <div class="text-slate-200 text-sm">
                     <p>This is a fan site, of a fan project in <a href="https://neosvr.com/" rel="noreferrer" target="_blank" class="underline">NeosVR</a>, of <a href="https://bloodontheclocktower.com" rel="noreferrer" target="_blank" class="underline">Blood on the Clocktower</a></p>
-                    <p>All Blood on the Clocktower images are intelectual property of their respective owners</p>
+                    <p>Blood on the Clocktower is a trademark of Steven Medway and The Pandemonium Institute.</p>
+                    <p>This project and its website are provided free of charge and not affiliated with The Pandemonium Institute in any way.</p>
                     <p>All video and imagury from NeosVR are respective IP of the creators of in game assets</p>
-                    <p>There is <strong>NO MONEY MADE</strong> from this site</p>
                 </div>
             </div>
             <div class="grow"></div>

@@ -14,10 +14,10 @@ export default function App() {
         <div class="p-10 align-center bg-stone-400">
           <Routes>
             <Route path="/" exact element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/credits" element={<Credits />} />
-            <Route path="/archive" element={<Archive />} />
-            <Route path="/22-06-21" element={<GameSession />} />
+            <Route path="about" element={<About />} />
+            <Route path="credits" element={<Credits />} />
+            <Route path="archive" element={<Archive />} />
+            <Route path="/game/:id" element={<GameSession />} />
           </Routes>
         </div>
         <Footer />
