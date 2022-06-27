@@ -40,7 +40,7 @@
 	"roster" : {
 		"storytellers": [
 			{ "name": "Ari", "pfp": "/assets/storytellers/Ari.png" },
-			{ "name": "Raith", "pfp": "https://via.placeholder.com/150" }
+			{ "name": "Raith", "pfp": "assets/storyteller/Raith.png" }
 		],
 		"residents": [
             { "name": "Todd", "role": "evil_twin" },
