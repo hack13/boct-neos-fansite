@@ -1,0 +1,57 @@
+{
+	"game name" : "Just Jamming (Special Guest)",
+	"date" : "May 12, 2022",
+	"video sources" : [
+		{ 
+			"id" : "0",
+			"perspective" : "Ravenskeeper",
+			"platform" : "BunnyPlayer",
+			"source" : "iframe.mediadelivery.net/embed/46527/05136c52-a1ee-4a9e-8d68-0002c72da508?autoplay=false",
+			"credit" : "Foxworth"
+		}
+	],
+	"script": {
+		"name": "Just Jamming",
+		"author": "Raith",
+		"roles": [
+			{"id":"chef"},
+			{"id":"empath"},
+			{"id":"fortune_teller"},
+			{"id":"investigator"},
+			{"id":"librarian"},
+			{"id":"monk"},
+			{"id":"ravenkeeper"},
+			{"id":"slayer"},
+			{"id":"soldier"},
+			{"id":"undertaker"},
+			{"id":"washerwoman"},
+			{"id":"tea_lady"},
+			{"id":"oracle"},
+			{"id":"drunk"},
+			{"id":"recluse"},
+			{"id":"saint"},
+			{"id":"tinker"},
+			{"id":"poisoner"},
+			{"id":"scarlet_woman"},
+			{"id":"godfather"},
+			{"id":"witch"},
+			{"id":"imp"},
+			{"id":"vigormortis"}
+		]
+	},
+	"roster" : {
+		"storytellers": [
+			{ "name": "Ari", "pfp": "/assets/storytellers/Ari.png" },
+			{ "name": "Raith", "pfp": "/assets/storytellers/Raith.png" }
+		],
+		"residents": [
+
+		],
+		"travellers": [ 
+
+		],
+		"fabled": [ 
+			
+		]
+	}
+}

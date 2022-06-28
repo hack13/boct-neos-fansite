@@ -1,0 +1,56 @@
+{
+	"game name" : "Watching Trouble",
+	"date" : "May 14, 2022",
+	"video sources" : [
+		{ 
+			"id" : "0",
+			"perspective" : "Storyteller",
+			"platform" : "BunnyPlayer",
+			"source" : "iframe.mediadelivery.net/embed/46527/e25435d8-0533-4100-b268-9984fbba9f13?autoplay=false",
+			"credit" : "Foxworth"
+		}
+	],
+	"script": {
+		"name": "Watching Trouble",
+		"author": "Data Missing",
+		"roles": [
+			{"id":"chef"},
+			{"id":"empath"},
+			{"id":"fortune_teller"},
+			{"id":"investigator"},
+			{"id":"librarian"},
+			{"id":"monk"},
+			{"id":"ravenkeeper"},
+			{"id":"soldier"},
+			{"id":"undertaker"},
+			{"id":"washerwoman"},
+			{"id":"nightwatchman"},
+			{"id":"mayor"},
+			{"id":"drunk"},
+			{"id":"recluse"},
+			{"id":"saint"},
+			{"id":"klutz"},
+			{"id":"poisoner"},
+			{"id":"spy"},
+			{"id":"mezepheles"},
+			{"id":"marionette"},
+			{"id":"imp"},
+			{"id":"vortox"}
+		]
+	},
+	"roster" : {
+		"storytellers": [
+			{ "name": "Foxworth", "pfp": "/assets/storytellers/foxworth.png" },
+			{ "name": "1amNick", "pfp": "/assets/storytellers/1amNick.png" }
+		],
+		"residents": [
+
+		],
+		"travellers": [ 
+
+		],
+		"fabled": [ 
+			
+		]
+	}
+}
