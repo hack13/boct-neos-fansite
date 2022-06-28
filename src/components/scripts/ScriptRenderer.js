@@ -18,7 +18,7 @@ const ScriptRenderer = ({ script }) => {
     return (
         <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4 border-2">
             <div class="font-serif text-lg font-bold text-stone-600">{script.name}</div>
-            <p class="font-serif text-base text-stone-600 italic"><strong>Aurthor:</strong> {script.author}</p>
+            <p class="font-serif text-base text-stone-600 italic"><strong>Author:</strong> {script.author}</p>
             <br />
             <div class="flex flex-col">
                 <div>
