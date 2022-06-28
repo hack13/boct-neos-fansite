@@ -1,5 +1,6 @@
 {
-	"game name" : "Seventh Son of a Seventh Son v2.1 - June 21, 2022",
+	"game name" : "Seventh Son of a Seventh Son v2.1",
+	"date" : "June 25, 2022",
 	"video sources" : [
 		{ 
 			"id" : "0",
@@ -14,11 +15,18 @@
 			"platform" : "YouTube",
 			"source" : "www.youtube.com/embed/q-3OpUAaq30",
 			"credit" : "Hack13"
+		},
+		{
+			"id" : "2",
+			"perspective" : "Empath",
+			"platform" : "Cloudflare",
+			"source" : "179016d1b138d0ac8d8c5842673ba69a",
+			"credit" : "Hack13"
 		}
 	],
 	"script": {
 		"name": "Seventh Son of a Seventh Son v2.1",
-		"author": "Abnormally Rendered",
+		"author": "Seb w/Minor Edits by Abnormally Rendered",
 		"roles": [
 			{ "id": "noble" },
 			{ "id": "grandmother" },

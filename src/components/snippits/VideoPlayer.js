@@ -1,3 +1,5 @@
+import { Stream } from '@cloudflare/stream-react'
+
 const VideoPlayer = ({ type, source }) => {
     let uri = 'https://' + source
 
@@ -13,6 +15,8 @@ const VideoPlayer = ({ type, source }) => {
                 <iframe src={uri} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         )
+    }else if (type === 'Cloudflare'){
+            <Stream controls src={source} />
     }else{
         return (
             <div>Oops... Something went wrong!</div>
