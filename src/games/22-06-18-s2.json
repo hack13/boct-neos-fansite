@@ -6,7 +6,7 @@
 			"id" : "0",
 			"perspective" : "Storyteller",
 			"platform" : "BunnyPlayer",
-			"source" : "iframe.mediadelivery.net/embed/46527/d7801c9b-9ffe-41a0-8054-14e8daf6c066?autoplay=",
+			"source" : "iframe.mediadelivery.net/embed/46527/d7801c9b-9ffe-41a0-8054-14e8daf6c066?autoplay=false",
 			"credit" : "Foxworth"
 		}
 	],
