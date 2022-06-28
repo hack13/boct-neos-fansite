@@ -54,5 +54,13 @@
         "storytellers": "Ari & Raith",
         "thumbnail": "/assets/thumbnails/thumbnail_75336b3b.webp",
         "slug": "/game/22-05-12"
+    },
+    {
+        "name": "You Thought It Was Over?",
+        "date": "May 7, 2022",
+        "script": "Howdy Neighbor 1.4",
+        "storytellers": "Delta & 1amNick",
+        "thumbnail": "/assets/thumbnails/thought-it-was-over.webp",
+        "slug": "/game/22-05-07"
     }
 ]

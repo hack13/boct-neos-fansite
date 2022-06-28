@@ -1,0 +1,59 @@
+{
+	"game name" : "You Thought It Was Over?",
+	"date" : "May 7, 2022",
+	"video sources" : [
+		{ 
+			"id" : "0",
+			"perspective" : "Sailor",
+			"platform" : "BunnyPlayer",
+			"source" : "iframe.mediadelivery.net/embed/46527/f6bc529a-3059-4d38-bb15-52261ef8ea59?autoplay=false",
+			"credit" : "Foxworth"
+		}
+	],
+	"script": {
+		"name": "Howdy Neighbor 1.4",
+		"author": "Data Missing",
+		"roles": [
+			{"id":"chef"},
+			{"id":"sailor"},
+			{"id":"fortune_teller"},
+			{"id":"dreamer"},
+			{"id":"empath"},
+			{"id":"balloonist"},
+			{"id":"cult_leader"},
+			{"id":"mathematician"},
+			{"id":"cannibal"},
+			{"id":"slayer"},
+			{"id":"amnesiac"},
+			{"id":"sage"},
+			{"id":"tea_lady"},
+			{"id":"acrobat"},
+			{"id":"barber"},
+			{"id":"recluse"},
+			{"id":"sweetheart"},
+			{"id":"spy"},
+			{"id":"godfather"},
+			{"id":"marionette"},
+			{"id":"devils_advocate"},
+			{"id":"no_dashii"},
+			{"id":"vigormortis"},
+			{"id":"imp"},
+			{"id":"po"}
+		]
+	},
+	"roster" : {
+		"storytellers": [
+			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.webp" },
+			{ "name": "1amNick", "pfp": "/assets/storytellers/1amNick.webp" }
+		],
+		"residents": [
+
+		],
+		"travellers": [ 
+
+		],
+		"fabled": [ 
+			
+		]
+	}
+}
