@@ -1,5 +1,5 @@
 {
-	"game name" : "And Make It Double",
+	"game name" : "Double Trouble",
 	"date" : "June 21, 2022",
 	"video sources" : [
 		{ 
@@ -48,8 +48,8 @@
 	},
 	"roster" : {
 		"storytellers": [
-			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.png" },
-			{ "name": "1amNick", "pfp": "/assets/storytellers/1amNick.png" }
+			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.webp" },
+			{ "name": "1amNick", "pfp": "/assets/storytellers/1amNick.webp" }
 		],
 		"residents": [
             { "name": "Todd", "role": "evil_twin" },

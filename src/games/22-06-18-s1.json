@@ -40,8 +40,8 @@
 	},
 	"roster" : {
 		"storytellers": [
-			{ "name": "Ari", "pfp": "/assets/storytellers/Ari.png" },
-			{ "name": "Raith", "pfp": "/assets/storytellers/Raith.png" }
+			{ "name": "Ari", "pfp": "/assets/storytellers/Ari.webp" },
+			{ "name": "Raith", "pfp": "/assets/storytellers/Raith.webp" }
 		],
 		"residents": [
             { "name": "Todd", "role": "undertaker" },

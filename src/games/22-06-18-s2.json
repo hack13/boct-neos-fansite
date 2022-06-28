@@ -1,5 +1,5 @@
 {
-	"game name" : "This Used to be a nice Neighborhood",
+	"game name" : "What Happened to the Neighborhood?",
 	"date" : "June 18, 2022",
 	"video sources" : [
 		{
@@ -43,8 +43,8 @@
 	},
 	"roster" : {
 		"storytellers": [
-			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.png" },
-			{ "name": "Foxworth", "pfp": "/assets/storytellers/foxworth.png" }
+			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.webp" },
+			{ "name": "Foxworth", "pfp": "/assets/storytellers/foxworth.webp" }
 		],
 		"residents": [
 

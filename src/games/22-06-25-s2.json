@@ -1,5 +1,5 @@
 {
-	"game name" : "Seventh Son of a Seventh Son v2.1",
+	"game name" : "Pit-Hag Fun",
 	"date" : "June 25, 2022",
 	"video sources" : [
 		{ 
@@ -14,13 +14,6 @@
 			"perspective" : "Empath",
 			"platform" : "YouTube",
 			"source" : "www.youtube.com/embed/q-3OpUAaq30",
-			"credit" : "Hack13"
-		},
-		{
-			"id" : "2",
-			"perspective" : "Empath",
-			"platform" : "Cloudflare",
-			"source" : "179016d1b138d0ac8d8c5842673ba69a",
 			"credit" : "Hack13"
 		}
 	],
@@ -57,8 +50,8 @@
 	},
 	"roster" : {
 		"storytellers": [
-			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.png" },
-			{ "name": "Todd", "pfp": "https://via.placeholder.com/150" }
+			{ "name": "Delta", "pfp": "/assets/storytellers/DeltaWolf.webp" },
+			{ "name": "Todd", "pfp": "/assets/storytellers/Todd.webp" }
 		],
 		"residents": [
             { "name": "Todd", "role": "evil_twin" },

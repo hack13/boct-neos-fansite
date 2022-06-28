@@ -40,8 +40,8 @@
 	},
 	"roster" : {
 		"storytellers": [
-			{ "name": "Foxworth", "pfp": "/assets/storytellers/foxworth.png" },
-			{ "name": "1amNick", "pfp": "/assets/storytellers/1amNick.png" }
+			{ "name": "Foxworth", "pfp": "/assets/storytellers/foxworth.webp" },
+			{ "name": "1amNick", "pfp": "/assets/storytellers/1amNick.webp" }
 		],
 		"residents": [
 
