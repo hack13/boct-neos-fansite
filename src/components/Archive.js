@@ -30,6 +30,14 @@ const Archive = () => {
                         <p><strong>Story Tellers:</strong> Delta &amp; 1AMNICK</p>
                     </div>
                 </div>
+                <div class="space-x-4 p-1 flex flex-row rounded-md border-2 border-solid border-stone-500">
+                    <div><Link to="/game/22-06-18-s1"><img src="https://img.youtube.com/vi/IQngH7-5YoM/mqdefault.jpg" class="w-16 md:w-32 lg:w-48 rounded-md" alt="video-thumbnail" /></Link></div>
+                    <div class="text-serif">
+                        <p class="text-2xl"><Link to="/game/22-06-18-s1">June 18, 2022</Link></p>
+                        <p><strong>Script:</strong> And Make It Double</p>
+                        <p><strong>Story Tellers:</strong> Ari &amp; Raith</p>
+                    </div>
+                </div>
             </div> 
         </div>
     )
