@@ -5,18 +5,17 @@ const ScriptRenderer = ({ script }) => {
 
     function roleFilter(role,filter){
         if (role !== DataSheet[role]){
-            console.log(role)
             let roledata = DataSheet[role].type
             if (roledata === filter){
                 return(
-                    <Roles role={role} />
+                    <Roles key={role} role={role} />
                 )
             }
         }
     }
 
     return (
-        <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4 border-2">
+        <div key={script.name} class="bg-stone-100 flex flex-col rounded-md outline-3 p-4 border-2">
             <div class="font-serif text-lg font-bold text-stone-600">{script.name}</div>
             <p class="font-serif text-base text-stone-600 italic"><strong>Author:</strong> {script.author}</p>
             <br />

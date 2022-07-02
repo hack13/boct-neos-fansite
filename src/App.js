@@ -11,7 +11,7 @@ export default function App() {
   return (
       <div>
         <Header />
-        <div class="p-1 md:p-5 lg:p-10 2xl:px-40 align-center bg-stone-400">
+        <div className="p-1 md:p-5 lg:p-10 2xl:px-40 align-center bg-stone-400">
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="about" element={<About />} />

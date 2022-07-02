@@ -6,7 +6,7 @@ const VideoPlayer = ({ type, source }) => {
     if (type === 'BunnyPlayer') {
         return (
             <div class="aspect-w-9 aspect-h-5">
-                <iframe src={uri} loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true" title="videoplayer"></iframe>
+                <iframe src={uri} loading="lazy" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen title="videoplayer"></iframe>
             </div>
         )
     }else if (type === 'YouTube') {

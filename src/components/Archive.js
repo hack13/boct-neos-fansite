@@ -1,14 +1,35 @@
 import { Link } from 'react-router-dom'
-import archiveList from '../datasets/archives.json'
+import { useEffect, useState, useRef } from "react"
+// import archiveList from '../datasets/archives.json'
 
 const Archive = () => {
+    const effectRan = useRef(false)
+    const [archiveList, setArchiveList] = useState([])
+    const fetchData = () => {
+        fetch("https://api.neosclocktower.fans/games")
+            .then(response => {
+            return response.json()
+        })
+        .then(data => {
+            setArchiveList(data)
+        })
+    }
+    useEffect(() => {
+        if (effectRan.current === false) {
+        fetchData()
+        return () => {
+            effectRan.current = true
+        }
+        }
+    }, [])
+    console.log(archiveList)
     return (
         <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4">
             <div class="font-serif text-2xl text-stone-600">Archive</div>
             <br />
             <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
                 {archiveList.map(game =>
-                    <div class="space-x-4 p-1 flex flex-col rounded-md border-2 border-solid border-stone-500">
+                    <div key={game.slug} class="space-x-4 p-1 flex flex-col rounded-md border-2 border-solid border-stone-500">
                         <div><Link to={game.slug}><img src={game.thumbnail} class="w-fit rounded-md" alt="video-thumbnail" /></Link></div>
                         <div class="text-serif">
                             <p class="text-2xl"><Link to={game.slug}>{game.name}</Link></p>
