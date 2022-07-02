@@ -1,14 +1,18 @@
 const Home = () => {
     return (
         <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4">
-            <div class="font-serif text-2xl text-stone-600">Blood on the Clocktower in NeosVR</div>
+            <div class="px-12 py-2">
+                <img src="/assets/front-page.webp" class="rounded-md" alt="front-page-game"/>
+                <p class="text-sm italic text-stone-500">Image Credit: Raith</p>
+            </div>
             <br />
+            <div class="font-serif text-2xl text-stone-600">Neos Clocktower Fans</div>
             <div class="space-y-2 text-base text-stone-600 text-serif">
                 <p class="text-base text-stone-600 text-serif">
-                    Welcome to Blood on the Clocktower in NeosVR, where we have tons of fun playing this amazing social deduction game in VR. The game is currently in its early
-                     development stages (the VR version that is), but it hasn't stopped many people from joining in and playing. It is amazingly fun and several of us 
-                     including myself have gone out and purchased the physical game as well to enjoy! Please go check out the Archive for the recordings of all previous games I 
-                     was able to get a hold of and put together.
+                    Welcome to Neos Clocktower Fans Site! This site contains the archive of previously played games of Blood on the Clocktower inside of wonderful platform known as 
+                    NeosVR. This project is a personal project that was born out of the want to teach myself JavaScript and want to contribute to a community I enjoy being a part of. 
+                    I however need help to make this the best we can. This site works off of data collected by fans who played, storytellers, and those who watch to help me record the 
+                    data into a database. If you would like to help contribute, you can do so here: <a href="https://github.com/hack13/neos-boct-scripts" rel="noreferrer" target="_blank" class="underline">https://github.com/hack13/neos-boct-scripts</a>
                 </p>
                 <p class="text-base text-stone-600 text-serif">
                     Please note, that this site is still in early development, and I am still making tons of changes to get it working properly for everyone. Please let me know 

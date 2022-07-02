@@ -20,6 +20,10 @@ const Credits = () => {
                 <p class="text-lg font-bold">Raven's Wood Bluff (NeosVR World)</p>
                 <p class="text-base">The game's world is created by the content creation group in NeosVR known as <strong>Abnormally Rendered</strong></p>
                 <br />
+                <p class="text-lg font-bold">Contributers</p>
+                <p class="text-base">Finally a huge thank you to everyone who helps contribute to the site by submitting your videos, helping with the code, or even just watching the videos and helping me get the game 
+                data into the scripts JSON files that help me make the site functional and informative. This project is nothing without all of you. You can contribute here:&nbsp;
+                <a href="https://github.com/hack13/neos-boct-scripts" rel="noreferrer" target="_blank" class="underline">https://github.com/hack13/neos-boct-scripts</a></p>
             </div>
         </div>
     )
