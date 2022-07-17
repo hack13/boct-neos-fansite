@@ -1,4 +1,4 @@
-import Roles from '../snippits/Roles'
+import Roles from './Roles'
 import DataSheet from '../../datasets/roles.json'
 
 const ScriptRenderer = ({ script }) => {

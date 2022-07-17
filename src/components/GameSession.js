@@ -1,6 +1,8 @@
 import { useEffect, useState, useRef } from "react"
 import { useParams } from "react-router-dom"
-import ScriptRenderer from "./scripts/ScriptRenderer"
+import ScriptRenderer from "./snippits/ScriptRenderer"
+import Roster from "./snippits/Roster"
+import Notes from "./snippits/Notes"
 import StoryTeller from "./snippits/StoryTeller"
 import VideoPlayer from "./snippits/VideoPlayer"
 
@@ -52,7 +54,11 @@ const GameSession = () => {
                         )}
                     </div>
                     <p class="text-xl font-bold">Script</p>
-                        <ScriptRenderer key={gameData["game name"]} script={gameData.script} />
+                    <ScriptRenderer key={gameData["game name"]} script={gameData.script} />
+                    <p class="text-xl font-bold">Roster</p>
+                    <Roster residents={gameData.roster.residents} />
+                    <p class="text-xl font-bold">Story Teller Notes</p>
+                    <Notes data={gameData.notes} />
                 </div> 
             </div>
         )
