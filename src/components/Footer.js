@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div class="bg-stone-800 flex flex-row p-5">
+        <div class="bg-stone-800 grid grid-cols-auto md:grid-cols-2 p-5">
             <div>
                 <div class="text-slate-300 text-xl">Disclaimers</div>
                 <div class="text-slate-200 text-sm">
@@ -10,7 +10,6 @@ const Footer = () => {
                     <p>All video and imagury from NeosVR are respective IP of the creators of in game assets</p>
                 </div>
             </div>
-            <div class="grow"></div>
             <div class="text-lg text-slate-100 text-serif items-end text-right">
                 <p>Site Managed by Hack13</p>
                 <p class="text-sm">Hosted on Cloudflare Pages</p>
