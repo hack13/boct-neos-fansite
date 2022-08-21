@@ -1,34 +1,35 @@
 import { Link } from 'react-router-dom'
-import { useEffect, useState, useRef } from "react"
-// import archiveList from '../datasets/archives.json'
+import { useQuery } from "react-query"
 
 const Archive = () => {
-    const effectRan = useRef(false)
-    const [archiveList, setArchiveList] = useState([])
-    const fetchData = () => {
-        fetch("https://api.neosclocktower.fans/games")
-            .then(response => {
-            return response.json()
-        })
-        .then(data => {
-            setArchiveList(data)
-        })
+    const fetchGames = async () => {
+        const response = await fetch('https://api.neosclocktower.fans/games')
+        return response.json()
     }
-    useEffect(() => {
-        if (effectRan.current === false) {
-        fetchData()
-        return () => {
-            effectRan.current = true
-        }
-        }
-    }, [])
-    console.log(archiveList)
+    const {data, status} = useQuery("games", fetchGames)
+
+    if(status === "loading") {
+        return(
+            <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-4">
+            Loading...
+            </div> 
+        )
+    }
+
+    if(status === "error") {
+        return(
+            <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-4">
+            Error fetching from API...
+            </div> 
+        )
+    }
+
     return (
         <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4">
             <div class="font-serif text-2xl text-stone-600">Archive</div>
             <br />
             <div class="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
-                {archiveList.map(game =>
+                {data.map(game =>
                     <div key={game.slug} class="space-x-4 p-1 flex flex-col rounded-md border-2 border-solid border-stone-500">
                         <div><Link to={game.slug}><img src={game.thumbnail} class="w-fit rounded-md" alt="video-thumbnail" /></Link></div>
                         <div class="text-serif">

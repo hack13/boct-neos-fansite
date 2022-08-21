@@ -2,7 +2,7 @@ import rolesheet from '../../datasets/roles.json'
 
 const Role = ({ role }) => {
     let lookup = role
-    console.log(role)
+    //console.log(role)
     let team = rolesheet[lookup].type.replace(/"/g, "")
     let properName = rolesheet[lookup].name.replace(/"/g, "")
 
