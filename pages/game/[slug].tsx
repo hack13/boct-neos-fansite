@@ -10,7 +10,7 @@ export async function getStaticPaths() {
     const games = await resp.json()
     return {
         paths: games.map((games: {slug: any}) => ({
-            params: { slug: games.slug.toString() },
+            params: { slug: games.slug.toString().replace("/game/", "") },
         })),
         fallback: true,
     }

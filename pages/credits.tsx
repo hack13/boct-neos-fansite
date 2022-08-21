@@ -1,11 +1,11 @@
-import Head from &apos;next/head&apos;
+import Head from "next/head"
 
 const Credits = () => {
     return (
         <div className="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-3">
             <Head>
                 <title>Neos Clocktower Fans - Credits</title>
-                <meta property=&apos;og:title&apos; content="Neos Clocktower Fans" key="titles"/>
+                <meta property="og:title" content="Neos Clocktower Fans" key="titles"/>
             </Head>
             <div className="font-serif text-2xl text-stone-600">Credits</div>
             <div className="space-y-2 text-base text-stone-600 text-serif">

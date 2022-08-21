@@ -23,7 +23,9 @@ const Roles = ({ role }: { role: string }) => {
     return (
         <div className="flex flex-row border-2 rounded-md p-2">
             <div className="flex-none items-center">
-                <img src={image} alt={role} className="w-12 md:w-20 lg:w-32" />
+                <picture>
+                    <img src={image} alt={role} className="w-12 md:w-20 lg:w-32" />
+                </picture>
             </div>
             <div className="flex-1">
                 <p className="text-stone-500 font-bold">{properName}</p>

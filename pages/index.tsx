@@ -9,7 +9,9 @@ const Home: NextPage = () => {
       <meta property='og:title' content="Neos Clocktower Fans" key="titles"/>
     </Head>
     <div className="px-12 py-2">
+      <picture>
         <img src="/assets/front-page.webp" className="rounded-md" alt="front-page-game"/>
+      </picture>
         <p className="text-sm italic text-stone-500">Image Credit: Raith</p>
     </div>
     <br />

@@ -24,7 +24,7 @@ export default function Archive( {games}: any ) {
             <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
                 {games.map((game: { id: number; slug: string | UrlObject; date: string; thumbnail: string; name: string; script: string; storytellers: string }) =>
                     <div key={game.id} className="space-x-4 p-1 flex flex-col rounded-md border-2 border-solid border-stone-500">
-                        <div><Link href={game.slug}><img src={game.thumbnail} className="w-fit rounded-md" alt="video-thumbnail" /></Link></div>
+                        <div><Link href={game.slug}><picture><img src={game.thumbnail} className="w-fit rounded-md" alt="video-thumbnail" /></picture></Link></div>
                         <div className="text-serif">
                             <p className="text-2xl"><Link href={game.slug}>{game.name}</Link></p>
                             <p><strong>Date:</strong> {game.date}</p>
