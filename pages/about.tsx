@@ -1,9 +1,14 @@
+import Head from 'next/head'
+
 const About = () => {
     return (
-        <div class="bg-stone-100 flex flex-col rounded-md outline-3 p-4">
-            <div class="font-serif text-2xl text-stone-600">About</div>
-            <br />
-            <div class="space-y-2 text-base text-stone-600 text-serif">
+        <div className="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-3">
+            <Head>
+                <title>Neos Clocktower Fans - About</title>
+                <meta property='og:title' content="Neos Clocktower Fans" key="titles"/>
+            </Head>
+            <div className="font-serif text-2xl text-stone-600">About</div>
+            <div className="space-y-2 text-base text-stone-600 text-serif">
                 <p>This site is created by Hack13, to help collect and create an archive of the games of Blood on the Clocktower inside of
                     NeosVR. The contents of the site are a collection of recordings, documentation, notes, and official game information 
                     from Blood on the Clocktower.</p>
