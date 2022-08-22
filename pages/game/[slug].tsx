@@ -38,8 +38,8 @@ export default function Game({game}: any) {
     return (
         <div className="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-4">
             <Head>
-                <title>Neos Clocktower Fans</title>
-                <meta property='og:title' content="Neos Clocktower Fans" key="titles"/>
+                <title>{game["game name"]} - {game.date}</title>
+                <meta property='og:title' content={game["game name"]} key="titles"/>
             </Head>
             <div className="font-serif text-2xl text-stone-600">{game["game name"]}</div>
                 <VideoPlayer platform={player} source={vidsrc} />
