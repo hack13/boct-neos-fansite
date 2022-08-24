@@ -5,7 +5,7 @@ import PlausibleProvider from 'next-plausible'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <PlausibleProvider domain="neosboct.hack13.dev" customDomain='stats.hack13.dev'>
+    <PlausibleProvider domain="neosboct.hack13.dev" customDomain='https://stats.hack13.dev' selfHosted={true}>
       <Layout>
         <Component {...pageProps} />
       </Layout>
