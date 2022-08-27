@@ -19,6 +19,7 @@ permissions:
 jobs:
   # Build job
   build:
+    environment: Production
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
