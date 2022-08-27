@@ -5,6 +5,7 @@ import StoryTeller from '../../components/StoryTeller'
 import ScriptRenderer from '../../components/ScriptRenderer'
 import Roster from '../../components/Roster'
 import Notes from '../../components/Notes'
+import { Games } from '../../Types'
 
 export async function getStaticPaths() {
     const resp = await fetch('https://api.neosclocktower.fans/games')
@@ -17,7 +18,7 @@ export async function getStaticPaths() {
     }
 }
 
-export async function getStaticProps({ params }: any) {
+export async function getStaticProps({ params }: { params: { slug: string } }) {
     const resp = await fetch(`https://api.neosclocktower.fans/game/${params.slug}`)
     return {
         props: {
@@ -26,7 +27,7 @@ export async function getStaticProps({ params }: any) {
     }
 }
 
-export default function Game({game}: any) {
+export default function Game(game: Games) {
     const [player, setPlayer] = useState(game["video sources"][0].platform)
     const [vidsrc, setVidsrc] = useState(game["video sources"][0].source)
 
@@ -46,7 +47,7 @@ export default function Game({game}: any) {
             <div className="space-y-2 text-stone-600 text-serif">
                 <p className="text-xl font-bold">Video Sources</p>
                 <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
-                    {game["video sources"].map((video: { id: number; platform: string; source: string; perspective: string; credit: string }) =>
+                    {game["video sources"].map((video) =>
                         <button key={video.id} onClick={() => changePlayer(video.platform, video.source)} className="bg-slate-700 text-stone-200 rounded-md p-3"><strong>{video.platform}</strong> <br/> <strong>Perspective:</strong> {video.perspective} <br/> <strong>Credit:</strong> {video.credit}</button>
                     )}
                 </div> 
