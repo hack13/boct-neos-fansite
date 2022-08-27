@@ -56,7 +56,7 @@ const Game: NextPage<{game: Games}> = ({game}) => {
 }
 
 export async function getStaticPaths() {
-    const resp = await fetch('https://api.neosclocktower.fans/games')
+    const resp = await fetch('https://raw.githubusercontent.com/hack13/neos-boct-scripts/main/games.json')
     const games = await resp.json()
     return {
         paths: games.map((games: {slug: any}) => ({
@@ -67,7 +67,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }: { params: { slug: string } }) {
-    const resp = await fetch(`https://api.neosclocktower.fans/game/${params.slug}`)
+    const resp = await fetch(`https://raw.githubusercontent.com/hack13/neos-boct-scripts/main/games/${params.slug}.json`)
     return {
         props: {
             game: await resp.json(),

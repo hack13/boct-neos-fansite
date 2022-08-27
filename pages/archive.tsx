@@ -30,7 +30,7 @@ const Archive: NextPage<{ games: GameList[] }> = ({games}) => {
 }
 
 export const getStaticProps: GetStaticProps = async (context) => {
-    const resp = await fetch('https://api.neosclocktower.fans/games')
+    const resp = await fetch('https://raw.githubusercontent.com/hack13/neos-boct-scripts/main/games.json')
     return {
         props : {
             games: await resp.json(),
