@@ -1,7 +1,7 @@
 import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import { GameList } from '../Types'
+import { GameList } from '../types'
 
 const Archive: NextPage<{ games: GameList[] }> = ({games}) => {
     return (

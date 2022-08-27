@@ -6,7 +6,7 @@ import StoryTeller from '../../components/StoryTeller'
 import ScriptRenderer from '../../components/ScriptRenderer'
 import Roster from '../../components/Roster'
 import Notes from '../../components/Notes'
-import { Games } from '../../Types'
+import { Games } from '../../types'
 
 const Game: NextPage<{game: Games}> = ({game}) => {
     const [player, setPlayer] = useState(game["video sources"][0].platform)
