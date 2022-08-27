@@ -1,18 +1,9 @@
+import { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react'
-import { UrlObject } from 'url'
+import { GameList } from '../Types'
 
-export async function getStaticProps() {
-    const resp = await fetch('https://api.neosclocktower.fans/games')
-    return {
-        props : {
-            games: await resp.json(),
-        }
-    }
-}
-
-export default function Archive( {games}: any ) {
+const Archive: NextPage<{ games: GameList[] }> = ({games}) => {
     return (
         <div className="bg-stone-100 flex flex-col rounded-md outline-3 p-4">
             <Head>
@@ -22,7 +13,7 @@ export default function Archive( {games}: any ) {
             <div className="font-serif text-2xl text-stone-600">Archive</div>
             <br />
             <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-3">
-                {games.map((game: { id: number; slug: string | UrlObject; date: string; thumbnail: string; name: string; script: string; storytellers: string }) =>
+                {games.map((game) => 
                     <div key={game.id} className="space-x-4 p-1 flex flex-col rounded-md border-2 border-solid border-stone-500">
                         <div><Link href={game.slug}><picture><img src={game.thumbnail} className="w-fit rounded-md" alt="video-thumbnail" /></picture></Link></div>
                         <div className="text-serif">
@@ -37,3 +28,14 @@ export default function Archive( {games}: any ) {
         </div>
     )
 }
+
+export const getStaticProps: GetStaticProps = async (context) => {
+    const resp = await fetch('https://api.neosclocktower.fans/games')
+    return {
+        props : {
+            games: await resp.json(),
+        }
+    }
+}
+
+export default Archive

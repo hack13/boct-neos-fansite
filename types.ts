@@ -1,4 +1,5 @@
 export interface GameList {
+    id:           string;
     name:         string;
     date:         string;
     script:       string;
@@ -10,6 +11,7 @@ export interface GameList {
 export interface Games {
     "game name":     string;
     date:            string;
+    thumbnail:       string;
     "video sources": VideoSource[];
     script:          Script;
     roster:          Roster;
