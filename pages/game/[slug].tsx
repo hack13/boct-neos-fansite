@@ -11,7 +11,7 @@ import { Games } from '../../types'
 const Game: NextPage<{game: Games}> = ({game}) => {
     const [player, setPlayer] = useState(game["video sources"][0].platform)
     const [vidsrc, setVidsrc] = useState(game["video sources"][0].source)
-    const embedDescription = "Game: " + game["game_name"] + "\n Script: " + game.script.name + "\n Script Author:" + game.script.author
+    const embedDescription = "<strong>Game:</strong> " + game["game_name"] + "\n <strong>Script:</strong> " + game.script.name + "\n <strong>Script Author:</strong> " + game.script.author
 
     function changePlayer(type: string, source: string) {
         setPlayer(type)
@@ -22,11 +22,12 @@ const Game: NextPage<{game: Games}> = ({game}) => {
         <div className="bg-stone-100 flex flex-col rounded-md outline-3 p-4 space-y-4">
             <Head>
                 <title>{game["game name"]} - {game.date}</title>
-                <meta property='og:title' content={game["game name"]} key="titles"/>
-                <meta property='og:site_name' content="Neos Clocktower Fans"/>
-                <meta property='og:description' content={embedDescription}/>
-                <meta property='og:image' content={game.thumbnail}/>
+                <meta property='og:title' content={game["game name"]} key="title"/>
+                <meta property='og:site_name' content="Neos Clocktower Fans" key="site_name"/>
+                <meta property='og:description' content={embedDescription} key="description"/>
+                <meta property='og:image' content={game.thumbnail} key="image"/>
                 <meta name="theme-color" content="#b4aa8a"/>
+                <meta name="twitter:card" content="summary_large_image" key="misc-card"/>
             </Head>
             <div className="font-serif text-2xl text-stone-600">{game["game name"]}</div>
                 <VideoPlayer platform={player} source={vidsrc} />
