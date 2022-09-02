@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { GetStaticProps, NextPage } from 'next'
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import VideoPlayer from '../../components/VideoPlayer'
 import StoryTeller from '../../components/StoryTeller'
 import ScriptRenderer from '../../components/ScriptRenderer'
