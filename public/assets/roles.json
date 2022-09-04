@@ -855,12 +855,14 @@
         "script_offset": 2134,
         "name": "Double Agent",
         "type": "townsfolk",
-        "ability": "The Demon sees you instead of a Minion. That Minion does not know the Evil team."
+        "ability": "The Demon sees you instead of a Minion. That Minion does not know the Evil team.",
+        "experimental": true
     },
-    "acrifice": {
+    "sacrifice": {
         "script_offset": 2135,
         "name": "Sacrifice",
         "type": "townsfolk",
-        "ability": "When you die, something bad happens to your townsfolk neighbors. A good player learns a hint about what it is."
+        "ability": "When you die, something bad happens to your townsfolk neighbors. A good player learns a hint about what it is.",
+        "experimental": true
     }
 }
