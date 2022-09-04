@@ -850,5 +850,17 @@
         "name": "Voudon",
         "type": "traveller",
         "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required."
+    },
+    "double_agent": {
+        "script_offset": 2134,
+        "name": "Double Agent",
+        "type": "townsfolk",
+        "ability": "The Demon sees you instead of a Minion. That Minion does not know the Evil team."
+    },
+    "acrifice": {
+        "script_offset": 2135,
+        "name": "Sacrifice",
+        "type": "townsfolk",
+        "ability": "When you die, something bad happens to your townsfolk neighbors. A good player learns a hint about what it is."
     }
 }
