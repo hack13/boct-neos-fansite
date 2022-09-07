@@ -864,5 +864,12 @@
         "type": "townsfolk",
         "ability": "When you die, something bad happens to your townsfolk neighbors. A good player learns a hint about what it is.",
         "experimental": true
+    },
+    "party_goer": {
+        "script_offset": 2136,
+        "name": "Party Goer",
+        "type": "outsider",
+        "ability": "Each night select a player. They will not wake (except Demon) and you take their place for targeting. If you die to the Demon in this way, your target and all target sources die as well.",
+        "experimental": true
     }
 }
