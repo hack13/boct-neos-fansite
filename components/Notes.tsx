@@ -1,5 +1,5 @@
 const Notes = ({ game }: any) => {
-    if (game.length === 0){
+    if (!game){
         return (
         <div className="bg-stone-100 flex flex-col rounded-md outline-3 p-4 border-2">
             <div className="font-serif">
