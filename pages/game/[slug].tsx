@@ -12,7 +12,7 @@ const Game: NextPage<{game: Games}> = ({game}) => {
     const [player, setPlayer] = useState(game["video sources"][0].platform)
     const [vidsrc, setVidsrc] = useState(game["video sources"][0].source)
     const embedDescription = "Script: " + game.script.name + "\n Script Author: " + game.script.author + "\n Date: " + game.date
-
+    
     function changePlayer(type: string, source: string) {
         setPlayer(type)
         setVidsrc(source)
