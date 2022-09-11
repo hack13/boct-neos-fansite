@@ -871,5 +871,19 @@
         "type": "outsider",
         "ability": "Each night select a player. They will not wake (except Demon) and you take their place for targeting. If you die to the Demon in this way, your target and all target sources die as well.",
         "experimental": true
+    },
+    "gold_spinner": {
+        "script_offset": 2137,
+        "name": "Gold Spinner",
+        "type": "outsider",
+        "ability": "Each day, visit the Storyteller for a new Task you must complete. Each task has a consequence. Publicly guess (once) an evil player correctly to lose your ability.",
+        "experimental": true
+    },
+    "brainwasher": {
+        "script_offset": 2138,
+        "name": "Brainwasher",
+        "type": "minion",
+        "ability": "Townsfolk might recieve the incorrect character in setup (their abilities work normally).",
+        "experimental": true
     }
 }
