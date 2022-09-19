@@ -101,6 +101,12 @@
         "type": "townsfolk",
         "ability": "If you die at night, you are woken to choose a player: you learn their character."
     },
+    "ravenskeeper": {
+        "script_offset": 620,
+        "name": "Ravenkeeper",
+        "type": "townsfolk",
+        "ability": "If you die at night, you are woken to choose a player: you learn their character."
+    },
     "slayer": {
         "script_offset": 490,
         "name": "Slayer",
@@ -884,6 +890,20 @@
         "name": "Brainwasher",
         "type": "minion",
         "ability": "Townsfolk might recieve the incorrect character in setup (their abilities work normally).",
+        "experimental": true
+    },
+    "harbinger": {
+        "script_offset": 2139,
+        "name": "Harbinger",
+        "type": "minion",
+        "ability": "Things you are \"mad\" about might become true.",
+        "experimental": true
+    },
+    "scarlet_doll": {
+        "script_offset": 2140,
+        "name": "Scarlet Doll",
+        "type": "minion",
+        "ability": "You think you are a good Townsfolk, but you are not. If 5 or more player are alive & the Demon dies, you become the Demon.",
         "experimental": true
     }
 }

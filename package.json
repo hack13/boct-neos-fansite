@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clappr/core": "^0.4.21",
+    "@guzzj/clappr-level-selector-plugin": "^0.2.3",
     "next": "12.2.5",
     "next-plausible": "^3.2.0",
     "react": "^18.2.0",
@@ -18,6 +20,7 @@
     "@types/node": "18.7.8",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "@types/video.js": "^7.3.48",
     "autoprefixer": "^10.4.8",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
