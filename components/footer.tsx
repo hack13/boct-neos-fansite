@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className="text-lg text-slate-100 text-serif items-end text-right">
                 <p>Site Managed by Hack13</p>
-                <p className="text-sm">Hosted on AWS</p>
+                <p className="text-sm">Hosted on Cloudflare Pages</p>
                 <p className="text-sm">Video Hosting on Bunny.net</p>
                 <p className="text-sm">Styled with TailwindCSS</p>
                 <p className="text-sm">Created with NextJS</p>
