@@ -11,7 +11,6 @@ interface Roles {
 const DataSheet = _rolesheet as unknown as Roles[]
 
 const ScriptRenderer = ({ script }: { script: any }) => {
-
     function roleFilter(role: any, filter: string){
         if (role !== DataSheet[role]){
             let roledata = DataSheet[role].type

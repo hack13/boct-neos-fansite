@@ -71,6 +71,12 @@
         "type": "townsfolk",
         "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
     },
+    "fortuneteller": {
+        "script_offset": 270,
+        "name": "Fortune Teller",
+        "type": "townsfolk",
+        "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    },
     "investigator": {
         "script_offset": 110,
         "name": "Investigator",
@@ -288,6 +294,12 @@
         "ability": "If both your alive neighbours are good, they can't die."
     },
     "fang_gu": {
+        "script_offset": 1180,
+        "name": "Fang Gu",
+        "type": "demon",
+        "ability": "Each night*, choose a player: they die. The first Outsider this kills becomes an evil Fang Gu & you die instead. (+1 Outsider)"
+    },
+    "fanggu": {
         "script_offset": 1180,
         "name": "Fang Gu",
         "type": "demon",
@@ -904,6 +916,34 @@
         "name": "Scarlet Doll",
         "type": "minion",
         "ability": "You think you are a good Townsfolk, but you are not. If 5 or more player are alive & the Demon dies, you become the Demon.",
+        "experimental": true
+    },
+    "constantine": {
+        "script_offset": 2141,
+        "name": "Constantine",
+        "type": "townsfolk",
+        "ability": "Once per game, during the day, privately make a deal with the Storyteller",
+        "experimental": true
+    },
+    "wraith": {
+        "script_offset": 2142,
+        "name": "Wraith",
+        "type": "outsider",
+        "ability": "Each nice, if you are dead, choose a good character(different): they are drunk. Choosing a demon bluff removes your ability.",
+        "experimental": true
+    },
+    "vengefulspirit": {
+        "script_offset": 2143,
+        "name": "Vengeful Spirit",
+        "type": "minion",
+        "ability": "Each night*, choose a player. The player you pick learns this. Once you die, chosen players may die at any time.",
+        "experimental": true
+    },
+    "thepositioner": {
+        "script_offset": 2144,
+        "name": "The Positioner",
+        "type": "minion",
+        "ability": "Each night, before other roles are triggered, choose two players to switch the night order of.",
         "experimental": true
     }
 }
