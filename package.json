@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clappr/core": "^0.4.21",
-    "@guzzj/clappr-level-selector-plugin": "^0.2.3",
     "next": "12.2.5",
     "next-plausible": "^3.2.0",
     "react": "^18.2.0",
